@@ -14,6 +14,30 @@ turf/map/cloud_tile
 	density=0
 	layer=0
 
+turf/map/cloud_tile_edge
+    icon='icons/map/cloudtileedge.dmi'
+    density=0
+    layer=1
+
+turf/map/cloud_tile_bottom
+    icon='icons/map/cloudtilebottom.dmi'
+    density=0
+    layer=1
+
+turf/map/cloud_tile_fast
+    icon='icons/map/cloudtilefast.dmi'
+    density=0
+    layer=0
+
+turf/map/cloud_tile_edge_fast
+    icon='icons/map/cloudtileedgefast.dmi'
+    density=0
+    layer=1
+
+turf/map/cloud_tile_bottom_fast
+    icon='icons/map/cloudtilebottomfast.dmi'
+    density=0
+    layer=1
 
 /obj/map/aetius_tower
 	icon='icons/map/aetius_tower.dmi'

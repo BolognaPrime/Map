@@ -7,6 +7,7 @@ obj/map/crystals_big
 	crystal_5/icon_state="5"
 	crystal_6/icon_state="6"
 	crystal_7/icon_state="7"
+	crystal_8/icon_state="8"
 obj/map/crystals_medium
 	icon='icons/map/CrystalsMedium.dmi'
 	crystal_1/icon_state="1"
@@ -16,6 +17,7 @@ obj/map/crystals_medium
 	crystal_5/icon_state="5"
 	crystal_6/icon_state="6"
 	crystal_7/icon_state="7"
+	crystal_8/icon_state="8"
 obj/map/crystals_small
 	icon='icons/map/CrystalsSmall.dmi'
 	crystal_1/icon_state="1"
@@ -25,7 +27,7 @@ obj/map/crystals_small
 	crystal_5/icon_state="5"
 	crystal_6/icon_state="6"
 	crystal_7/icon_state="7"
-
+	crystal_8/icon_state="8"
 
 obj
 	map

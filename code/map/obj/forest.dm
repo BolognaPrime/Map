@@ -158,6 +158,8 @@ obj
 				layer = 2.1
 				icon='icons/map/obj/forest/decals.dmi'
 				icon_state="log"
+				dead
+					icon_state = "log_dead"
 				//become_visual = 1
 			trunk
 				layer = 2.1
@@ -790,6 +792,32 @@ obj
 						underlays += new /TreeShadow(py = 2, state = "tree1")
 						..()
 
+				tree_6
+					icon = 'icons/map/obj/forest/tree_6.dmi'
+					icon_state = "tree"
+					pixel_y = -8
+					bound_x = 32
+					density = TRUE
+
+					top
+						icon_state = "top"
+						layer = OVER_LAYER
+						pixel_x = 0
+						pixel_y = 0
+
+				tree_7
+					icon = 'icons/map/obj/forest/tree_7.dmi'
+					icon_state = "tree"
+					pixel_y = -8
+					bound_x = 32
+					density = TRUE
+
+					top
+						icon_state = "top"
+						layer = OVER_LAYER
+						pixel_x = 0
+						pixel_y = 0
+
 				tree_rand
 					icon = 'icons/map/obj/forest/tree_1.dmi'
 					recolor_icon = 'icons/map/obj/forest/recolored/tree_1.dmi'
@@ -818,6 +846,11 @@ obj
 						new ttype(loc)
 						del(src)*/
 
+			stump
+				icon = 'icons/map/obj/forest/stump.dmi'
+				pixel_y = -8
+				bound_x = 32
+				density = TRUE
 
 		forest_autumn
 			//become_visual = 1
@@ -1556,7 +1589,6 @@ obj
 						..()
 						overlays += .top
 						underlays += new /TreeShadow(py = 2, state = "tree1")
-
 
 
 		forest_mystic

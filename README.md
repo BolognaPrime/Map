@@ -22,7 +22,6 @@ As people may not be familiar with how Git works, a variety of scripts have been
 - **1_sync.bat**: Pulls latest changes from the main EterniaDevelopment/Map repository onto your local branch.
 - **2_new_branch.bat**: Allows you to create a new 'branch', which is effectively a place to store changes for one specific thing, e.g. making a new cave.
 - **3_save_work.bat**: Stages all changes and commits them with a message. This uploads your changes to the GitHub repository fork you created. Good for saving progress.
-- **4_create_pr.bat**: Opens up the GitHub 'compare' page, which allows you to make a Pull Request back into the main EterniaDevelopment/Map repository. A Pull Request is how you bundle up the changes on a branch and request that the main EterniaMapping repository add them to its master branch.
 - **status.bat**: Shows the name of your current branch and any changed files.
 - **switch_branch.bat**: Lists your branches and is able to switch between them.
 
